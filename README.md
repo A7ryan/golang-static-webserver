@@ -8,8 +8,7 @@
 ---
 
 ## Final Website Output
-![Website Demo](https://github.com/A7ryan/golang-static-webserver/tree/main/images/img.png)
-
+![Website Demo](https://github.com/A7ryan/golang-static-webserver/blob/main/images/img.png)
 
 ---
 
