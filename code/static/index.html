@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hello from Docker - Golang WebServer</title>
+</head>
+<body bgcolor="#FFFFCC">
+    <center style="font-family: 'Times New Roman', Times, serif;">
+        
+        <h1 style="color: blueviolet">
+            I am running Golang WebServer inside Docker!
+        </h1>
+        
+        <button onclick="changeImage()" style="background-color: gold; border-color:gold;">Change Image</button>
+        
+        <div class="rand-image" style="margin-top: 20px;">
+            <img alt="Random image" id="randomImage" src="https://picsum.photos/200">
+        </div>
+    </center>
+</body>
+</html>
+
+<script>
+    function changeImage() {
+        const img = document.getElementById('randomImage');
+        img.src = "https://picsum.photos/200?" + new Date().getTime(); // added timestamp to avoid caching
+    }
+</script>
